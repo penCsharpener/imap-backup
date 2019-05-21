@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>penCsharpener.ImapData</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\mail2db\mail2db\mail2db.csproj" />
+    <ProjectReference Include="..\..\sqlkata\QueryBuilder\QueryBuilder.csproj" />
+    <ProjectReference Include="..\..\sqlkata\SqlKata.Execution\SqlKata.Execution.csproj" />
+  </ItemGroup>
+
+</Project>

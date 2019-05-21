@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>penCsharpener.ImapBackup</RootNamespace>
+    <PackageId>penCsharpener.ImapBackup</PackageId>
+    <Product>penCsharpener.ImapBackup</Product>
+    <Authors>Matthias Mülller (penCsharpener)</Authors>
+    <Version>0.1.0</Version>
+    <LangVersion>preview</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ServiceTimer - Copy.cs_old" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="ServiceTimer - Copy.cs_old" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.60.6" />
+    <PackageReference Include="Dapper.FluentMap" Version="1.8.0" />
+    <PackageReference Include="MySqlConnector" Version="0.54.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="PropertyChanged.Fody" Version="3.0.1" />
+    <PackageReference Include="Topshelf" Version="4.2.0" />
+    <PackageReference Include="Z.Dapper.Plus" Version="1.5.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\mail2db\mail2db\mail2db.csproj" />
+    <ProjectReference Include="..\..\sqlkata\QueryBuilder\QueryBuilder.csproj" />
+    <ProjectReference Include="..\..\sqlkata\SqlKata.Execution\SqlKata.Execution.csproj" />
+    <ProjectReference Include="..\data\data.csproj" />
+  </ItemGroup>
+
+</Project>

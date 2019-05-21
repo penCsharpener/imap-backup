@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "imap-backup", "imap-backup\imap-backup.csproj", "{9E405F51-2802-4D47-BBC5-F685C69E77E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mail2db", "..\mail2db\mail2db\mail2db.csproj", "{D8BF3894-98B6-42CF-8E61-2EEFE0A44935}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "data", "data\data.csproj", "{DBC812DA-6957-433B-AC24-AFE4CCF6C0A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "unit-tests", "..\mail2db\unit-tests\unit-tests.csproj", "{92423A21-F50D-4A77-8CAA-9A7A64960511}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueryBuilder", "..\sqlkata\QueryBuilder\QueryBuilder.csproj", "{90A4FAAB-6FC9-4832-A79D-69999CF31B13}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqlKata.Execution", "..\sqlkata\SqlKata.Execution\SqlKata.Execution.csproj", "{86BB60D3-BCE2-4323-A521-60AF919AC156}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E405F51-2802-4D47-BBC5-F685C69E77E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E405F51-2802-4D47-BBC5-F685C69E77E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E405F51-2802-4D47-BBC5-F685C69E77E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E405F51-2802-4D47-BBC5-F685C69E77E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8BF3894-98B6-42CF-8E61-2EEFE0A44935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8BF3894-98B6-42CF-8E61-2EEFE0A44935}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8BF3894-98B6-42CF-8E61-2EEFE0A44935}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8BF3894-98B6-42CF-8E61-2EEFE0A44935}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBC812DA-6957-433B-AC24-AFE4CCF6C0A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBC812DA-6957-433B-AC24-AFE4CCF6C0A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBC812DA-6957-433B-AC24-AFE4CCF6C0A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBC812DA-6957-433B-AC24-AFE4CCF6C0A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92423A21-F50D-4A77-8CAA-9A7A64960511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92423A21-F50D-4A77-8CAA-9A7A64960511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92423A21-F50D-4A77-8CAA-9A7A64960511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92423A21-F50D-4A77-8CAA-9A7A64960511}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90A4FAAB-6FC9-4832-A79D-69999CF31B13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90A4FAAB-6FC9-4832-A79D-69999CF31B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90A4FAAB-6FC9-4832-A79D-69999CF31B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90A4FAAB-6FC9-4832-A79D-69999CF31B13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86BB60D3-BCE2-4323-A521-60AF919AC156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86BB60D3-BCE2-4323-A521-60AF919AC156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86BB60D3-BCE2-4323-A521-60AF919AC156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86BB60D3-BCE2-4323-A521-60AF919AC156}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A699C36E-6F08-4385-8F9D-7031E52E534A}
+	EndGlobalSection
+EndGlobal
